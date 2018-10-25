@@ -11,10 +11,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "eslint-plugin-html": "^4.0.6",
+    "vconsole": "^3.2.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
-    "vue-resource": "^1.5.1"
-
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -73,5 +74,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wvxiaobai/vue_sell.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wvxiaobai/vue_sell/issues"
+  },
+  "homepage": "https://github.com/wvxiaobai/vue_sell#readme"
 }
